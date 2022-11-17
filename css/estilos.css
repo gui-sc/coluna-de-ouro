@@ -74,6 +74,7 @@ footer a {
 
 #footerprop {
     bottom: 0;
+    left: 0;
     width: 100%;
     position: block;
     text-align: center;
