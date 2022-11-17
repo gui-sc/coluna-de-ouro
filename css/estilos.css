@@ -53,7 +53,7 @@ li {
 
 footer {
     bottom: 0;
-    position: block;
+    position: static;
     width: 100%;
     text-align: center;
     background-color: #AEF9CE;
@@ -162,8 +162,45 @@ footer a {
     font-size: 20px;
 }
 
-@media only screen and (max-width: 1320px) {
-    footer {
-        position: fixed;
+@media only screen and (max-width: 800px) {
+
+    header img,
+    footer img {
+        width: 85%;
+        height: 85%;
     }
+
+    header a,
+    footer a {
+        font-size: 30px;
+    }
+
+    .iconesfooter img {
+        height: 15%;
+        width: 15%;
+    }
+
+    .iconesfooter p {
+        font-size: 18px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    header img,
+    footer img {
+        width: 75%;
+        height: 75%;
+    }
+
+    header a,
+    footer a {
+        font-size: 18px;
+    }
+
+    .iconesfooter p {
+        font-size: 14px;
+    }
+
 }
