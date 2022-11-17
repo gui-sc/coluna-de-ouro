@@ -1,3 +1,169 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+body {
+    margin: 0 auto;
+    font-family: 'Roboto';
+    background-color: rgb(250, 250, 250);
+}
+
+main {
+    margin: 0 auto;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+#mainproprietario {
+    display: flex;
+}
+
 img {
-    width: 100px;
+    width: 200px;
+}
+
+header {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    background-color: #ffffff;
+    font-size: 34px;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0px;
+    box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+header a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 50px;
+    font-family: 'Satisfy', cursive;
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+}
+
+footer {
+    bottom: 0;
+    position: block;
+    width: 100%;
+    text-align: center;
+    background-color: #AEF9CE;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    align-items: center;
+    width: 300px;
+}
+
+#footerprop {
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #AEF9CE;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.iconesfooter img {
+    width: 50px;
+    align-items: center;
+}
+
+.iconesfooter {
+    transition: 0.6s;
+}
+
+.iconesfooter:hover {
+    transition: 0.6s;
+    scale: 1.05;
+}
+
+#fotospagprinc {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: center;
+}
+
+#fotospagprinc img {
+    width: 100%;
+    height: 550px;
+}
+
+#sobreprinc {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    flex-direction: column;
+    border-radius: 15px;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+}
+
+
+#imgdono {
+    display: flex;
+    justify-content: space-between;
+    max-width: 50%;
+    max-height: 50%;
+    flex-direction: column;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+#imgdono img {
+    width: 70%;
+}
+
+#sobredono {
+    display: flex;
+    justify-content: space-between;
+    max-width: 45%;
+    max-height: 50%;
+    flex-direction: column;
+    border-radius: 15px;
+    align-items: center;
+    margin: 10px 0px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#tratamentos {
+    width: 85%;
+    text-align: justify;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 1320px) {
+    footer {
+        position: fixed;
+    }
 }
