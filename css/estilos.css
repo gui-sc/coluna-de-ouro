@@ -76,7 +76,7 @@ footer a {
     bottom: 0;
     left: 0;
     width: 100%;
-    position: block;
+    position: static;
     text-align: center;
     background-color: #AEF9CE;
     display: flex;
@@ -84,7 +84,6 @@ footer a {
     justify-content: space-around;
     align-items: center;
     padding: 20px 0px;
-    margin-top: 142px;
 }
 
 .iconesfooter img {
@@ -165,7 +164,7 @@ footer a {
     font-size: 20px;
 }
 
-@media only screen and (min-width: 2000px) {
+@media only screen and (max-width: 1300px) {
     #footerprop {
         position: absolute;
     }
