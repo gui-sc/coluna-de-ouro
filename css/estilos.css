@@ -53,7 +53,7 @@ li {
 
 footer {
     bottom: 0;
-    position: static;
+    position: block;
     width: 100%;
     text-align: center;
     background-color: #AEF9CE;
@@ -75,6 +75,7 @@ footer a {
 #footerprop {
     bottom: 0;
     width: 100%;
+    position: block;
     text-align: center;
     background-color: #AEF9CE;
     display: flex;
@@ -162,7 +163,13 @@ footer a {
     font-size: 20px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (min-width: 2000px) {
+    #footerprop {
+        position: absolute;
+    }
+}
+
+@media only screen and (max-width: 950px) {
 
     header img,
     footer img {
